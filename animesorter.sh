@@ -69,7 +69,7 @@ for f in *; do
                     move_folder "./#" "${f}"
        
           else 
-              echo  "$(tput setaf 1) Skipping ${f} $(tput sgr0)"
+              echo  "$(tput setaf 1) Skipping  $(tput sgr0) $(tput setaf 4)${f}$(tput sgr0)"
           fi
     fi
 done
